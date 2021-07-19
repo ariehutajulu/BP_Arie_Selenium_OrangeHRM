@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1" verbose="10" preserve-order="true" >
+    <test name="Main Suites" >
+        <classes>
+            <class name="testcase.TestLogin"></class>
+            <class name="testcase.TestForgotPassword"></class>
+        </classes>
+    </test>
+</suite>
