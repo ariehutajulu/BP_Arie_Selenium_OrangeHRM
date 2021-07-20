@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class SendReportEmail
 {
 
-    @Test(testName = "Send Report Email" ,priority = 11)
+    @Test(testName = "Send Report Email" )
     public void sendingMail()
 
     {
@@ -38,7 +38,7 @@ public class SendReportEmail
 
         try
         {
-            email.setMsg("Hello Sir/Madam , This is a report of Selenium Test OrangHRM Web");
+            email.setMsg("Hello Sir/Madam , This is a report of Selenium Test OrangHRM Web By Arie");
         }
 
         catch (EmailException e)

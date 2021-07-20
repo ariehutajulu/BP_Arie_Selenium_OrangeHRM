@@ -24,11 +24,6 @@ public class TestForgotPasswordClickCancel extends OpenBrowser {
         report.endTest(test);
         report.flush();
     }
-    @AfterClass
-    public void cleanUps(){
-        driver.manage().deleteAllCookies();
-        driver.close();
 
-    }
 
 }

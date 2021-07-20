@@ -14,8 +14,8 @@
             <class name="testcase.TestForgotPasswordIncorrectUsername"></class>
             <class name="testcase.TestForgotPasswordEmptyUsername"></class>
             <class name="testcase.TestForgotPasswordClickCancel"></class>
+            <class name="testcase.TestAddEmployee"></class>
             <class name="testcase.SendReportEmail"></class>
-
         </classes>
     </test>
 </suite>
