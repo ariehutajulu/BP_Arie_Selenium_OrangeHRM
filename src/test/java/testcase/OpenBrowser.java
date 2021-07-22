@@ -4,16 +4,20 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
+
 
 public class OpenBrowser {
-
-    static WebDriver driver = new ChromeDriver();
+    static WebDriver driver = new FirefoxDriver();
     ExtentReports report;
     ExtentTest test;
-    @BeforeClass
-    public void beforeclass() {
-        System.setProperty("webdriver.chrome.driver",Utils.CHROME_DRIVER_LOCATION);
 
-    }
+@BeforeClass
+    public void before(){
+    System.setProperty("webdriver.firefox.driver",Utils.Firefox);
 }
+}
+
+

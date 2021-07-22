@@ -33,7 +33,7 @@ public class TestAddEmployee extends TestLogin {
         driver.findElement(By.id("lastName")).sendKeys("Hutajulu");
         test.log(LogStatus.PASS,"Input Last Name");
         WebElement uploadElement = driver.findElement(By.id("photofile"));
-        uploadElement.sendKeys("C://Users/arieh/Pictures/Screenshots/Screenshot (4).png");
+        uploadElement.sendKeys("C:\\Users\\arieh\\Pictures\\Screenshots\\Screenshot (4).png");
         Thread.sleep(2000);
         test.log(LogStatus.PASS,"Upload Profile Picture");
         driver.findElement(By.id("btnSave")).click();
@@ -61,7 +61,7 @@ public class TestAddEmployee extends TestLogin {
         driver.findElement(By.id("lastName")).sendKeys("Hutajulu");
         test.log(LogStatus.PASS,"Input Last Name");
         WebElement uploadElement = driver.findElement(By.id("photofile"));
-        uploadElement.sendKeys("C://Users/arieh/Pictures/Screenshots/Screenshot (4).png");
+        uploadElement.sendKeys("C:\\Users\\arieh\\Pictures\\Screenshots\\Screenshot (4).png");
         Thread.sleep(2000);
         test.log(LogStatus.PASS,"Upload Profile Picture");
         driver.findElement(By.id("btnSave")).click();
@@ -90,7 +90,7 @@ public class TestAddEmployee extends TestLogin {
         test.log(LogStatus.PASS,"Input Last Name");
 
         WebElement uploadElement = driver.findElement(By.id("photofile"));
-        uploadElement.sendKeys("C://Users/arieh/Pictures/Screenshots/Screenshot (4).png");
+        uploadElement.sendKeys("C:\\Users\\arieh\\Pictures\\Screenshots\\Screenshot (4).png");
         Thread.sleep(2000);
         test.log(LogStatus.PASS,"Upload Profile Picture");
         driver.findElement(By.id("btnSave")).click();
@@ -124,7 +124,7 @@ public class TestAddEmployee extends TestLogin {
         test.log(LogStatus.PASS,"Input Middle Name");
 
         WebElement uploadElement = driver.findElement(By.id("photofile"));
-        uploadElement.sendKeys("C://Users/arieh/Pictures/Screenshots/Screenshot (4).png");
+        uploadElement.sendKeys("C:\\Users\\arieh\\Pictures\\Screenshots\\Screenshot (4).png");
         Thread.sleep(2000);
         test.log(LogStatus.PASS,"Upload Profile Picture");
         driver.findElement(By.id("btnSave")).click();
