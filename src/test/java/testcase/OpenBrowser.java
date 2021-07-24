@@ -6,17 +6,19 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
 
 public class OpenBrowser {
-    static WebDriver driver = new FirefoxDriver();
-    ExtentReports report;
-    ExtentTest test;
+    public WebDriver driver ;
+    public ExtentReports report;
+    public ExtentTest test;
 
-@BeforeClass
+@BeforeSuite
     public void before(){
-    System.setProperty("webdriver.firefox.driver",Utils.Firefox);
+    System.setProperty("webdriver.chrome.driver",Utils.CHROME_DRIVER_LOCATION);
+    driver = new ChromeDriver();
 }
 }
 
