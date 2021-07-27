@@ -7,8 +7,8 @@ import org.openqa.selenium.support.FindBy;
 
 
 public class WebForm extends PageObject {
-    public final String USERNAME = "Admin";
-    public final String PASSWORD = "s3Kol4HQA!*";
+    public  String USERNAME = "Admin";
+    public  String PASSWORD = "s3Kol4HQA!*";
 
     @FindBy(id = "txtUsername")
     public WebElement username;

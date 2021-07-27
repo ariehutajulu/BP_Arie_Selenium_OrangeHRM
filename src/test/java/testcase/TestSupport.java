@@ -53,6 +53,7 @@ public class TestSupport extends TestLogin {
         Assert.assertTrue(driver.getTitle().contains("OrangeHRM Open Source - Apps on Google Play"));
         Thread.sleep(1000);
         test.log(LogStatus.PASS,"Verify Title");
+        driver.close();
         //switch to parent window
         driver.switchTo().window(newTb.get(0));
         System.out.println("Page title of parent window: " + driver.getTitle());

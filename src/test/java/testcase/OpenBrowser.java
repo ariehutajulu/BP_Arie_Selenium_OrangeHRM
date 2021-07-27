@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeTest;
 
 
 public class OpenBrowser {
-    public WebDriver driver ;
+    public static WebDriver driver ;
     public ExtentReports report;
     public ExtentTest test;
 

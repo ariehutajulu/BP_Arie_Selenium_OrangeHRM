@@ -9,7 +9,6 @@
            <class name="testcase.TestAddEmployee"></class>
            <class name="testcase.TestBuzz"></class>
            <class name="testcase.TestSupport"></class>
-           <class name="testcase.SendReportEmail"></class>
        </classes>
     </test>
 </suite>

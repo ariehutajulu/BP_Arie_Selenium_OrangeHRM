@@ -3,7 +3,7 @@ package testcase;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-public class PageObject {
+public class PageObject extends OpenBrowser{
     public WebDriver driver;
 
     public PageObject(WebDriver driver) {
