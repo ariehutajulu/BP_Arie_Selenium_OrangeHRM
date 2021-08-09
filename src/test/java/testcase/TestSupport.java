@@ -2,14 +2,11 @@ package testcase;
 
 
 import com.relevantcodes.extentreports.LogStatus;
+import init.ExtentFactory;
 import org.openqa.selenium.By;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
-import java.awt.*;
-import java.awt.datatransfer.StringSelection;
-import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 
 public class TestSupport extends TestLogin {

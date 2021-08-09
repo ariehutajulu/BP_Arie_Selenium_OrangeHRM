@@ -1,6 +1,9 @@
 package testcase;
 
 
+import init.ExtentFactory;
+import init.Utils;
+import init.WebForm;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import com.relevantcodes.extentreports.LogStatus;
@@ -24,7 +27,7 @@ public class TestLogin extends OpenBrowser{
         webForm.clickLogin();
         test.log(LogStatus.PASS,"Click Login");
         Thread.sleep(2000);
-        Assert.assertTrue(driver.getPageSource().contains("Welcome Karyawan"));
+        Assert.assertTrue(driver.getPageSource().contains("Welcome Zidan"));
         test.log(LogStatus.PASS,"Text Verified");
 
         report.endTest(test);

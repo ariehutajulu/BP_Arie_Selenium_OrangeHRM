@@ -1,4 +1,4 @@
-package testcase;
+package init;
 
 import com.relevantcodes.extentreports.ExtentReports;
 

@@ -1,9 +1,10 @@
-package testcase;
+package init;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
+import testcase.OpenBrowser;
 
-public class PageObject extends OpenBrowser{
+public class PageObject extends OpenBrowser {
     public WebDriver driver;
 
     public PageObject(WebDriver driver) {
